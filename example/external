@@ -1,0 +1,14 @@
+$ORIGIN cyfajo.com.
+$TTL    3h
+@       IN      SOA     ns1.cyfajo.com.  ns2.cyfajo.com. (
+                          3         ; Serial
+        	          3h         ; Refresh
+                          1h         ; Retry
+	                  3h         ; Expire
+                          3h )       ; Negative Cache TTL
+;
+@				IN NS    ns1.cyfajo.com.
+@				IN NS    ns2.cyfajo.com.
+@			3600    IN A     140.113.207.131
+ns1			3600    IN A     140.113.207.131
+ns2			30    IN A     140.113.207.131
